@@ -269,7 +269,7 @@ keyboard (unsigned char key, int x, int y)
 			{
 			tea_polygons_number = tea_polygons_number + 1;
 			b = b + 1;
-			object_name[11] = tea_polygons_number + '0';
+			object_name[6] = tea_polygons_number + '0';
 			load_obj(object_name);
 			}
  		break;
@@ -279,7 +279,7 @@ keyboard (unsigned char key, int x, int y)
 			{
 			tea_polygons_number = tea_polygons_number - 1;
 			b = b - 1;
-			object_name[11] = tea_polygons_number + '0';
+			object_name[6] = tea_polygons_number + '0';
 			load_obj(object_name);
 			}
 		break;
