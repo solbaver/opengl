@@ -245,7 +245,7 @@ keyboard (unsigned char key, int x, int y)
     case 27:
       exit (0);
       break;
-      
+      //chose number of teapots
 	case 'a':
 		if (a>-2.5)
 			{
@@ -263,7 +263,8 @@ keyboard (unsigned char key, int x, int y)
 			tea_num = tea_num + 1;
 			}
 		break;
-      
+		
+        //not a tessellation from shader, just choose from several teapots from low poly to high poly
 	case 'w':
 		if (b<3)
 			{
