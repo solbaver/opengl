@@ -17,7 +17,7 @@ GLuint teapot_object;
 float teapot_rotation;
 
 //file for loading
-char object_name[] = "data/teapot1.obj";
+char object_name[] = "teapot1.obj";
 
 //variables for sliders
 int a = -3.5;
